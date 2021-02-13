@@ -1,0 +1,23 @@
+@import "../utils/variables.scss";
+
+.options {
+    margin: 1.25rem;
+
+}
+
+.options .option {
+    
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-color:$primary;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.options .option.selected {
+  
+    border-color: gray;
+    border: 1px solid blue;
+    background-color: skyblue;
+    border-radius: 3px;
+}

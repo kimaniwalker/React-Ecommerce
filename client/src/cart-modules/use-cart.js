@@ -2,18 +2,18 @@ import React from 'react'
 
 export default function UseCart(props) {
 
-    const [cart , setCart] = React.useState('Testingggg')
-   /*  const [cart, setCart] = React.useState(
+    /* const [cart , setCart] = React.useState('Testingggg') */
+    const [cart, setCart] = React.useState(
         () => JSON.parse(localStorage.getItem('cart')) || []
-    ); */
+    );
 
 
 
 
 
-    /* React.useEffect(() => {
+    React.useEffect(() => {
         localStorage.setItem('cart', JSON.stringify(cart));
-    }, ['cart', cart]); */
+    }, ['cart', cart]);
 
     function cartTest(value) {
         setCart(value)
@@ -78,6 +78,7 @@ export default function UseCart(props) {
     }
 
     function getItemId(id) {
+        console.log(id)
         return id
 
     }

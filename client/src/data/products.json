@@ -1,0 +1,74 @@
+[
+    {
+        "id": 12345678,
+        "name": "Giuseppe Zanotti Men's Ru70009q Sneaker",
+        "price": 290,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 288.94
+            },
+            {
+                "name": "medium",
+                "price": 298.94
+            }
+        ],
+
+        "styles": [
+            {
+                "name": "Regular",
+                "price": 1
+            },
+            {
+                "name": "Leopord",
+                "price": 2
+            }
+        ],
+
+        "colors": [{
+            "name":"blue",
+            "image":"https://images-na.ssl-images-amazon.com/images/I/81BPUafKVGL._AC_UX395_.jpg"
+        },
+    
+        {
+            "name":"red",
+            "image":"https://images-na.ssl-images-amazon.com/images/I/71N1xHrCu7L._AC_UL160_SR160,160_.jpg"
+        }]
+    },
+    {
+        "id": 2345678,
+        "name": "Giuseppe Zanotti Men's Ru70009q Sneaker",
+        "price": 295,
+        "sizes": [
+            {
+                "name": "small",
+                "price": 288.94
+            },
+            {
+                "name": "medium",
+                "price": 298.94
+            }
+        ],
+
+        "styles": [
+            {
+                "name": "Regular",
+                "price": 1
+            },
+            {
+                "name": "Leopord",
+                "price": 2
+            }
+        ],
+
+        "colors": [{
+            "name":"blue",
+            "image":"https://images-na.ssl-images-amazon.com/images/I/81BPUafKVGL._AC_UX395_.jpg"
+        },
+    
+        {
+            "name":"red",
+            "image":"https://images-na.ssl-images-amazon.com/images/I/71N1xHrCu7L._AC_UL160_SR160,160_.jpg"
+        }]
+    }
+]

@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Products from './components/products';
 import useCart from './cart-modules/use-cart';
 import cartCtx from './cart-modules/cart-context';
 import Cart from './components/cart';
+import ProductItem from './components/product-item';
 
 export default function App(props) {
 
@@ -23,8 +23,9 @@ export default function App(props) {
 
       <Router>
         <Switch>
-          <Route exact path="/" component={Products} />
+          <Route exact path="/" component={Cart} />
           <Route exact path="/cart" component={Cart} />
+          <Route exact path="/products" component={ProductItem} />
           <Route render={() => <h1>404: page not found</h1>} />
         </Switch>
       </Router>
